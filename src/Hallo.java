@@ -2,15 +2,11 @@
 import java.lang.Object;
 
 /**
- * 24.08.16
- * @author Kristinn Heiðar Freysteinsson
- *
- */
-
-/**
- *
  * Forritið Hallo (Hallo.java)
  * skrifar heilræði á skjáinn
+ *
+ * @author Kristinn Heiðar Freysteinsson
+ * @version 1, 24.08.16
  */
 
 public class Hallo extends Object
