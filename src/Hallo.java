@@ -13,11 +13,11 @@ public class Hallo extends Object
 {
     public static void main (String[] args)
     {
-        /*String heilraedi = "Gott er þeim sem glatt hafa sinni,\n" +
-                "guð sé með oss öllum hér inni.\n";*/
+        String heilraedi = "Gott er þeim sem glatt hafa sinni,\n" +
+                "guð sé með oss öllum hér inni.\n";
 
         // Skrifa á skjá
-        //System.out.println (heilraedi);
+        System.out.println (heilraedi);
         for (int i=0; i < args.length; i++)
         {
             System.out.println (args[i]);
