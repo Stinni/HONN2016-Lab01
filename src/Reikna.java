@@ -1,5 +1,12 @@
+
+import java.lang.Object;
+
 /**
- * Created by KristinnHeiðar on 2.9.2016.
+ * Forritið Reikna (Reikna.java)
+ * skrifar út á skjáinn fylki með 100 punktum
+ *
+ * @author Kristinn Heiðar Freysteinsson
+ * @version 1, 01.09.16
  */
 public class Reikna extends Object
 {
