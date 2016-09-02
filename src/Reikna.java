@@ -3,11 +3,17 @@
  */
 public class Reikna extends Object
 {
+    static final int MAX_NR_OF_POINTS = 100;
+
     public static void main (String[] args)
     {
-        Point p = new Point(4.0, 3.0);
-        String hnit = p.skrifa();
-        System.out.println(hnit);
+        Point[] kurfa = new Point[MAX_NR_OF_POINTS];
+
+        for(int i = 0; i < MAX_NR_OF_POINTS; i++)
+        {
+            kurfa[i] = new Point(Math.sin((double)i/100), Math.cos((double)i/100));
+            System.out.println(kurfa[i].skrifa());
+        }
     }
 }
 
